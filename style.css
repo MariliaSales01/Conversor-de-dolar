@@ -1,0 +1,117 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+img{
+    width: 100%;
+}
+
+.conversor{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+    background-color: #262626;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: rgb(248, 248, 248);
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f46;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.input-field span,
+.input-field i{
+    color: aliceblue;
+    padding: 0.6rem 1rem;
+    font-size: 1.4rem;
+}
+
+.input-field input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+    outline: none;
+}
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+button{
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #ff9900;
+    color: #f8fafc;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid #ffffff34;
+    padding: 0.75rem 0;
+}
+
+#converter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+    color: #f8fafc;
+}
+
+#converter span:last-child{
+    font-size: 1.2rem;
+    color: #f8fafc;
+}
+
+.hidden{
+    display: none;  
+}
